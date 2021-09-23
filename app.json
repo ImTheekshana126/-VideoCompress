@@ -1,0 +1,57 @@
+{
+  "name": "VideoCompressBot",
+  "description": "Telegram's best Video Compress Bot",
+  "logo": "https://telegra.ph/file/b687febf32e4d583fb1d4.jpg",
+  "keywords": [
+    "telegram",
+    "best",
+    "video",
+    "compress",
+    "bot"
+  ],
+  "success_url": "https://t.me/linux_repo",
+  "website": "https://t.me/Discovery_Updates",
+  "repository": "https://github.com/AbirHasan2005/VideoCompress",
+  "env": {
+    "ENV": {
+      "description": "Setting this to ANYTHING will enable VARs when in ENV mode",
+      "value": "ANYTHING"
+    },
+    "SESSION_NAME": {
+      "description": "Keep this default",
+      "value": "AHCompressBot",
+      "required": true
+    },
+    "TG_BOT_TOKEN": {
+      "description": "Your bot token, as a string. Get this from @BotFather",
+      "value": "",
+      "required": true
+    },
+    "APP_ID": {
+      "description": "Get this value from https://my.telegram.org",
+      "value": "",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "Get this value from https://my.telegram.org",
+      "value": "",
+      "required": true
+    },
+    "AUTH_USERS": {
+      "description": "Allow only pre-defined users to use this bot as Sudo User. Separate with Space. Just for using Admin Commands.",
+      "value": "715779594",
+      "required": false
+    },
+    "BOT_USERNAME": {
+      "description": "Your Bot Username. Without `@` before Username!",
+      "value": "",
+      "required": true
+    },
+    "LOG_CHANNEL": {
+      "description": "Your Bot's Log Channel's Username. For Help ask in @linux_repo",
+      "value": "",
+      "required": true
+    }
+  },
+  "stack": "container"
+}
